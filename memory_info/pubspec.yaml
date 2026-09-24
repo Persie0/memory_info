@@ -1,6 +1,6 @@
 name: memory_info
-description: Flutter package to get device memory info(ram&rom) at android/ios devices
-repository: https://github.com/MrOlolo/memory_info/tree/master/memory_info
+description: Flutter package to get device memory info(ram&rom) at android/ios/macos devices
+repository: https://github.com/Persie0/memory_info/tree/master/memory_info
 version: 0.1.0
 
 environment:
@@ -28,4 +28,6 @@ flutter:
         package: com.mrololo.memory_info
         pluginClass: MemoryInfoPlugin
       ios:
+        pluginClass: MemoryInfoPlugin
+      macos:
         pluginClass: MemoryInfoPlugin
